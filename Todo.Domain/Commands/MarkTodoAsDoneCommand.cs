@@ -8,7 +8,7 @@ namespace Todo.Domain.Commands
     {
         public MarkTodoAsDoneCommand()
         {
-
+            User = string.Empty;
         }
         public MarkTodoAsDoneCommand(Guid id, string user)
         {

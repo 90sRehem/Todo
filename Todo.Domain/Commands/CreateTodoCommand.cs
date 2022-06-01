@@ -8,7 +8,9 @@ namespace Todo.Domain.Commands
     {
         public CreateTodoCommand()
         {
-
+            Title = string.Empty;
+            User = string.Empty;
+            Date = DateTime.Now;
         }
 
         public CreateTodoCommand(string title, string user, DateTime date)
