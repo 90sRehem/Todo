@@ -11,7 +11,7 @@ namespace Todo.Domain.Entities
 
         public bool Equals(BaseEntity? other)
         {
-            return Id == other.Id;
+            return Id == other?.Id;
         }
     }
 }
